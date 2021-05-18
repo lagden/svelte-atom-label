@@ -13,7 +13,7 @@ Svelte component
 ## Install
 
 ```
-$ yarn add -E "https://github.com/uNetworking/svelte-atom-label/archive/v1.0.0.tar.gz"
+$ yarn add -E "https://github.com/uNetworking/svelte-atom-label/archive/1.0.0.tar.gz"
 ```
 
 ## Usage
