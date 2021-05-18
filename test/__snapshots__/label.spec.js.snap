@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label should match snapshot default 1`] = `
+<body>
+  <div>
+    <label
+      class="_atom_frm__label"
+    />
+  </div>
+</body>
+`;
+
+exports[`Label should match snapshot props 1`] = `
+<body>
+  <div>
+    <label
+      class="_atom_frm__label customCss _atom_frm__label___required"
+      data-test="1"
+      disabled="false"
+      for="inputID"
+      required="true"
+    />
+  </div>
+</body>
+`;
+
+exports[`Label should match snapshot with slot 1`] = `
+<body>
+  <div>
+    <label
+      class="_atom_frm__label _atom_frm__label___disabled"
+      disabled="true"
+      for="test"
+      required="false"
+    >
+      Test 
+      <b>
+        bold
+      </b>
+    </label>
+  </div>
+</body>
+`;
