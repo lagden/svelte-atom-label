@@ -13,7 +13,7 @@ Svelte component
 ## Install
 
 ```
-$ yarn add -E "https://github.com/lagden/svelte-atom-label/archive/1.0.0.tar.gz"
+$ yarn add @tadashi/svelte-atom-label@lagden/svelte-atom-label#1.0.0 -D
 ```
 
 ## Usage
