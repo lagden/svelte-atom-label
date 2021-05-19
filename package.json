@@ -9,7 +9,7 @@
     "atom",
     "component"
   ],
-  "svelte": "src/label.js",
+  "svelte": "src/Label.svelte",
   "main": "src/label.js",
   "type": "module",
   "files": [
