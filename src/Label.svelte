@@ -1,11 +1,10 @@
 <script>
-const restPropsClass = String($$restProps?.class ?? '').split(' ')
-$$restProps.class = [
-	...new Set(['_atom_frm__label', ...restPropsClass])
-].join(' ')
+	let className = ''
+	export {className as class}
 </script>
 
 <label
+	class="_atom_frm__label {className}"
 	class:_atom_frm__label___disabled={$$restProps?.disabled ?? false}
 	class:_atom_frm__label___required={$$restProps?.required ?? false}
 	{...$$restProps}
